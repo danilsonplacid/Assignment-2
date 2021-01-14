@@ -10,7 +10,11 @@
 
   </head>
   <body>
-    <div class="container">
+
+      <Header>
+          <!-- Navbar Area -->
+
+    <div class="container mt-10" >
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -21,37 +25,43 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="d-flex justify-content-end">
+                <div class="collapse navbar-collapse, d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class=" penguins d-flex justify-content-end">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                         <a class="nav-link" href="#">Product</a>
                         <a class="nav-link" href="#">About Us</a>
                         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                          </form>
+                        
                     </div>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row d-flex align-items-center p-5">
-                        <div class="col-md-7">
-                            <h1 class="fs-1" >BE THE PENGUINS </h1>
-                            <h1 class="of-winter">OF WINTER</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta?</p>
-          
-                            <button class="btn btn-warning">Buy Now</button>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="images/Lady-circle.png" class="d-block w-100" alt="...">
+
+
+
+        <!-- First Carousel -->
+
+       
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-md-7">
+                                <h1 class="fs-1" >BE THE PENGUINS </h1>
+                                <h1 class="of-winter">OF WINTER</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta?</p>
+              
+                                <button class="btn btn-warning">Buy Now</button>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/Lady-circle.png" class="d-block w-100" alt="...">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="carousel-item">
+        
+
+                <div class="carousel-item">
                     <div class="row d-flex align-items-center p-5">
                         <div class="col-md-7">
                             <h1>Cool Dude Headphone</h1>
@@ -86,8 +96,89 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </a>
-        </div> -->
-    </header>
+        </div>
+      </Header>
+    
+
+
+
+    <!-- Sweater,Socks and Gloves Area -->
+                
+    <!-- <section class="container overflow-hidden mt-5">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Sweater</h1>
+                    <img src="images/Sweater.png" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 rounded bg-success d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Socks</h1>
+                    <img src="images/socks.png" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-around">
+                    <h1 class="text-white">Gloves</h1>
+                    <img src="images/gloves.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+      <!-- Woman Jackets Area -->
+
+
+
+      <section class=" container mt-5">
+        <h3>Woman Jackets</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow">
+                    <img src="images/Jacket1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Coat Jacket </h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, cum nostrum. Quis odit voluptates excepturi.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-warning">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow">
+                    <img src="images/Jacket2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ladies Jacket </h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-warning">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow">
+                    <img src="images/Jacket3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Airmax</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-warning">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
